@@ -1,7 +1,7 @@
 import unittest
 
 from zkp_auth.sigma_protocols.chaum_pedersen.prover import ChaumPedersenProver
-from zkp_auth.sigma_protocols.chaum_pedersen.verfier import ChaumPedersenVerifier
+from zkp_auth.sigma_protocols.chaum_pedersen.verifier import ChaumPedersenVerifier
 
 
 class TestChaumPedersenVerifier(unittest.TestCase):
