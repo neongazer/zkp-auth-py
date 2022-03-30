@@ -40,8 +40,8 @@ pip install --upgrade -r requirements.txt
 ```
 
 ### 7. Run unit tests:
-```shell
 Main integration test Prover with Verifier:
+```shell
 python -m unittest -v tests/sigma_protocols/chaum_pederson/test_prover_with_verifier.py
 ```
 or all tests:
