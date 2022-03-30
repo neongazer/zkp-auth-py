@@ -1,2 +1,5 @@
+pycryptodome
+Crypto
+numpy
 xmlrunner
 unittest-xml-reporting

@@ -1,3 +1,6 @@
+# Unit tests
+test-reports/
+
 # IntelliJ IDEA stuff
 .idea/
 *.iml

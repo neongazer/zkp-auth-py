@@ -1,9 +1,11 @@
 # zkp-auth-py
 ZKP Protocol for Authentication in Python 3.7
 
+It is using Chaum-Pedersen proof to prove the equality of exponents of two modular exponentiation with different bases.
+
 ## New Python Project Setup
 
-1. Check you have Python 3.7 installed and available
+### 1. Check you have Python 3.7 installed and available
 ```shell
 python3.7 --version
 pip3 --version
@@ -32,7 +34,17 @@ python3.7 -m virtualenv venv
 source venv/bin/activate
 ```
 
-### 6. Install project modules from requirements.txt
+### 6. Install project modules
 ```shell
 pip install --upgrade -r requirements.txt
+```
+
+### 7. Run unit tests:
+```shell
+Main integration test Prover with Verifier:
+python -m unittest -v tests/sigma_protocols/chaum_pederson/test_prover_with_verifier.py
+```
+or all tests:
+```shell
+python -m unittest discover tests
 ```
