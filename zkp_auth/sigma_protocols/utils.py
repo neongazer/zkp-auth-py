@@ -16,9 +16,6 @@ def generate_pq(p_bits: Optional[int] = PRIME_NUMBER_LENGTH_BITS) -> Tuple[int, 
     p = number.getPrime(p_bits)
     q = p // 2
 
-    #while not number.isPrime(q):
-    #    q += 1
-
     return p, q
 
 
